@@ -44,6 +44,14 @@ body {
     color:dimgray;
 }
 
+.img {
+    border-radius: 10px;
+}
+
+.project-info {
+    padding: 8px;
+}
+
 /* Article heading treatment */
 h2, h3 {
     color: #311B92;
