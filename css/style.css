@@ -45,8 +45,8 @@ body {
 }
 
 /* Article heading treatment */
-h3 {
-    color: darkslateblue
+h2, h3 {
+    color: #311B92;
 }
 
 /* Paragraph treatment */
