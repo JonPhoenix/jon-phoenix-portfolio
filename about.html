@@ -1,0 +1,125 @@
+<!-- HTML5 - About for Responsive Portfolio -->
+<!DOCTYPE html>
+<!-- Defining laguage English United States -->
+<html lang="en-us">
+<!-- Head with title, favicon image, and the linked Bootstrap CSS file -->
+<head>
+  <!-- Using a descriptive webpage title -->
+  <title>Jon Phoenix - About</title>
+  <!-- Adding a favicon to webpage title -->
+  <link rel="icon" type="image/png" href="img/">
+  <!-- Required responsive meta tags to ensure things scale correctly across devices -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Linking Bootstrap CSS -->
+  <link 
+    rel="stylesheet" 
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+    crossorigin="anonymous"
+  />
+  <!-- Linking Additional CSS -->
+  <link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<!-- Adding inline css style background color -->
+<body style="background-color:lightslategray;">
+  <!-- Div "content" for Sticky footer -->
+  <div class="content">
+    <!-- Div "content-inside" for Sticky footer -->
+    <div class="content-inside">
+      <!-- Building a NavBar, fixing it to the top, keeping navbar-brand to the left and inline css -->
+      <nav class="navbar fixed-top navbar-expand-md navbar-dark" style="background-color:darkslateblue">
+        <!-- Adding an icon to navbar-brand-->
+        <a class="navbar-brand" href="index.html">Jon Phoenix
+          <img src="img/" width="30" height="30" alt="Icon">
+        </a>
+        <!-- Adding the navbar toggler for smaller viewports -->
+        <button 
+          class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" 
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Placing nav-links and aligning them to the right -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <!-- Adding nav-link "About" and make it active -->
+            <li class="nav-item active">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <!-- Adding nav-link "Projects" -->
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+            <!-- Adding nav-link "Contact" -->
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Main section in "container" with additional css style -->
+      <div class="container">
+        <!-- Adding a 12-column row for a sub-section -->
+        <div class="row">
+          <div class="col-lg-12">
+            <!-- Wrapping the article in a card -->
+            <article class="card">
+              <!-- Adding a h3 heading with css color style-->
+              <h3>About : Me</h3>
+              <!-- Adding a new 12-column row to place content -->
+              <div class="row">
+                <!-- Using a 4-column row segment to place image with alt element -->
+                <div class="col-lg-3">
+                  <img class="img img-thumbnail" src="images/jon_photo.jpg" alt="Jon Phoenix">
+                </div>
+                <div class="col-lg-3">
+                  <img class="img img-thumbnail" src="images/rainier_photo.jpg" alt="Lake Union with Mount Rainier">
+                </div>
+                <!-- Using a 8-column row segment for paragraph with css color style -->
+                <div class="col-lg-6">
+                  <p style="font-weight: bold;">
+                    Hi, I am Jon Phoenix – aka Jonathan Martinez.
+                  </p>
+                  <p>
+                    I am a multicultural designer and web developer with a strong background in graphic design and branding, 
+                    working for top international companies. I am based in Seattle, WA.
+                  </p>
+                  <p>
+                    I constantly look for ways to push things forward, experiment with new ideas, Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam quasi quos perferendis dicta soluta beatae at, similique, perspiciatis minima alias. See a sample of <a href="projects.html">my work here.</a>
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+      <br/>
+      <p style="text-align: center; font-size: small;">
+        All artwork images are copyrighted and owned by their creators. This prototype application is for educational purposes only.
+      </p>
+    </div>
+  </div>
+  <!-- Adding a Sticky footer with css style -->
+  <footer class="footer">
+    <h6>&copy; Jon Phoenix 2020</h6>
+  </footer>
+  <!-- Required scripts for Bootstrap components to work -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script
+    src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous">
+  </script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous">
+  </script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous">
+  </script>
+</body>
+</html>

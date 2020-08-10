@@ -1,0 +1,71 @@
+/* Additional css styling */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+/* Sticky footer helper */
+.content {
+    min-height: 100%;
+  }
+
+/* Sticky footer helper */
+.content-inside {
+    padding-bottom: 50px;
+}
+
+/* Navbar brand text treatement */
+.navbar-brand {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+/* Top padding to avoid navbar */
+.container {
+    padding-top: 100px;
+}
+
+/* Inner padding for design purposes */
+.card {
+    padding: 40px 40px 40px 40px;
+    border-radius: 15px;
+}
+
+/* Color for jumbotron lead paragraph */
+.lead {
+    color:dimgray;
+}
+
+/* Article heading treatment */
+h3 {
+    color: darkslateblue
+}
+
+/* Paragraph treatment */
+p {
+    color: dimgray
+}
+
+/* Sticky footer text treatment */
+h6 {
+    font-size: 12px;
+    color: lightsteelblue;
+    line-height: 40px;
+}
+
+.note {
+    font-size: small;
+}
+
+/* Cancelling padding on this element */
+#social-bar {
+    padding: 0px 0px 0px 0px;
+}
+
+/* Sticky footer with negative margin */
+.footer {
+    height: 50px;
+    margin-top: -50px;
+    text-align: center;
+    background-color: darkslateblue;
+  }
