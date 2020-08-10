@@ -4,6 +4,10 @@ html, body {
     margin: 0;
 }
 
+body {
+    background-color: #5E35B1;
+}
+
 /* Sticky footer helper */
 .content {
     min-height: 100%;
@@ -14,10 +18,14 @@ html, body {
     padding-bottom: 50px;
 }
 
-/* Navbar brand text treatement */
+/* Navbar brand text treatment */
 .navbar-brand {
     font-size: x-large;
     font-weight: bold;
+}
+
+.navbar {
+    background-color: #311B92;
 }
 
 /* Top padding to avoid navbar */
@@ -67,5 +75,5 @@ h6 {
     height: 50px;
     margin-top: -50px;
     text-align: center;
-    background-color: darkslateblue;
+    background-color: #311B92;
   }
