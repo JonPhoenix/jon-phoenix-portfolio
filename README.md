@@ -38,3 +38,7 @@ Deployment url: https://jonphoenix.github.io/phoenix-portfolio/
 ```
 
 ## Application Preview
+
+![Updated portfolio](https://user-images.githubusercontent.com/65391199/89869842-ce745180-db69-11ea-93b0-ad63f9fde386.png)
+
+![Updated portfolio](https://user-images.githubusercontent.com/65391199/89869846-d03e1500-db69-11ea-92df-0d35b837c8a0.png)
