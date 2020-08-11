@@ -39,6 +39,10 @@ body {
     border-radius: 15px;
 }
 
+.jumbotron {
+    margin: 0;
+}
+
 /* Color for jumbotron lead paragraph */
 .lead {
     color:dimgray;
