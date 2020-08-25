@@ -1,4 +1,4 @@
-# Updated Responsive Portfolio
+# Jon Phoenix - Responsive Portfolio
 
 This mobile responsive application combines basic knowledge on HTML, CSS, GIT, Scripts, and the CSS framework Bootstrap. 
 Starting with index, portfolio and contact pages, this responsive application delivers an extended structure comprised by home, about, portfolio galleries, and contact pages, including functional links to social media and a downloadable pdf file (Resume).
