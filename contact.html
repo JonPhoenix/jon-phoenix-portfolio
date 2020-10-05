@@ -18,6 +18,11 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
     crossorigin="anonymous"
   />
+  <!-- Linking Google fonts -->
+  <link
+  href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Roboto:wght@300;400;600&display=swap"
+  rel="stylesheet" type="text/css"
+  />
   <!-- Linking Additional CSS -->
   <link rel="stylesheet" type="text/css" href="css/style.css"/>
 </head>
@@ -30,7 +35,7 @@
       <!-- Building a NavBar, fixing it to the top, keeping navbar-brand to the left and inline css -->
       <nav class="navbar fixed-top navbar-expand-md navbar-dark">
         <!-- Adding an icon to navbar-brand-->
-        <a class="navbar-brand" href="index.html">Jon Phoenix®</a>
+        <a class="navbar-brand" href="index.html">Jon Phoenix<span class="note">®</span></a>
         <!-- Adding the navbar toggler for smaller viewports -->
         <button 
           class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" 
@@ -109,6 +114,9 @@
         </div>
       </div>
       <br/>
+      <p class= "note">
+        Full-stack web developer & designer
+      </p>
     </div>
   </div>
   <!-- Adding a Sticky footer with css style -->

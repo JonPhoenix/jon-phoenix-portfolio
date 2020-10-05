@@ -2,9 +2,6 @@
 html, body {
     height: 100%;
     margin: 0;
-}
-
-body {
     background-color: #5E35B1;
 }
 
@@ -20,8 +17,7 @@ body {
 
 /* Navbar brand text treatment */
 .navbar-brand {
-    font-size: x-large;
-    font-weight: bold;
+    font-size: 1.4rem;
 }
 
 .navbar {
@@ -46,6 +42,9 @@ body {
 /* Color for jumbotron lead paragraph */
 .lead {
     color:dimgray;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 1.2rem;
 }
 
 .img {
@@ -57,13 +56,30 @@ body {
 }
 
 /* Article heading treatment */
-h2, h3 {
+h2 {
     color: #311B92;
+    font-family: Montserrat;
+    letter-spacing: 0.2rem;
+
 }
 
-/* Paragraph treatment */
+h3 {
+    color: #311B92;
+    font-family: Montserrat;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+}
+
+/* Text treatment */
 p {
-    color: dimgray
+    color: dimgray;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+a {
+    font-family: Roboto;
 }
 
 /* Sticky footer text treatment */
@@ -74,12 +90,9 @@ h6 {
 }
 
 .note {
-    font-size: small;
-}
-
-.note {
     text-align: center;
-    font-size: small;
+    font-size: 0.8rem;
+    font-weight: 500;
     color: #9575CD;
 }
 
