@@ -89,6 +89,11 @@ h6 {
     line-height: 40px;
 }
 
+.form-group {
+    color: darkslateblue;
+    font-family: Roboto;
+}
+
 .note {
     text-align: center;
     font-size: 0.8rem;
@@ -97,7 +102,7 @@ h6 {
 }
 
 /* Cancelling padding on this element */
-#social-bar {
+.social-bar {
     padding: 0px 0px 0px 0px;
 }
 
